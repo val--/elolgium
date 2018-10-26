@@ -1,9 +1,5 @@
 $(document).ready(function(){
     
-    const arr = [1, 2, 3];
-    const iAmJavascriptES6 = () => console.log(...arr);
-    window.iAmJavascriptES6 = iAmJavascriptES6;
-    
     var quoteSource=[
         {
         	quote: "Athlète grec connu pour sa force prodigieuse, veut tester sa force en achevant de fendre un arbre ouvert en deux. <br>Mais il présume de ses forces et ses mains restent coincées dans le tronc de l'arbre. Immobilisé, incapable de se défendre, il est dévoré par des loups.",
