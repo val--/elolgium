@@ -1,41 +1,36 @@
-body{
-	/*font-family: 'Roboto', sans-serif;*/
+body {
 	font-family: 'EB Garamond', serif;
-	/*color: #000;*/
-	/*background-color:#233237;*/
 	background-color:black;
 	color: white;
 	margin:0;
 	padding:0;
-
 }
 
-#container{
-	/*width:900px;*/
+#container {
+	width:990px;
 	margin:auto;
 	padding-left: 20px;
 	padding-right:20px;
 	padding-top:5px;
-	width:68%;
 	min-height:600px;
 }
-#container h2{
+
+#container h2 {
 	text-align:center;
 	color:white;
 	font-family: 'Roboto', sans-serif;
 	font-size:1.8em;
-
 }
 
-#descriptionMort{
+#deathcription {
 	width:75%;
 	padding:10px;
 	margin:auto;
 	font-size:1.6em;
-	/*text-align: center;*/
   	min-height:250px;
 }
-#malheureux{
+
+#poorguyname {
 	font-style: italic;
 	font-weight: 600;
 	text-align: center;
@@ -47,13 +42,13 @@ body{
 	color:#984B43;
 }
 
-#buttonContainer{
+#buttonContainer {
 	width: 100%;
 	text-align: center;
 }
-#quoteButton{
+
+#quoteButton {
 	width:200px;
-	/*color:#045;*/
 	color:#DFDCE3;
 	font-family: inherit;
 	font-weight: bold;
@@ -63,15 +58,16 @@ body{
 	text-align: center;
 }
 
-#quoteButton:hover{
+#quoteButton:hover {
 	cursor:pointer;
 	color: #fff;	
 }
-#quoteButton:active{
+
+#quoteButton:active {
 	cursor: pointer;
 }
 
-#skull-ascii{
+#skullascii {
 	font-family: 'Courier New';
 	font-size:10px;
 	width:500px;
@@ -80,23 +76,22 @@ body{
 	cursor:pointer;
 }
 
-#skull-ascii:hover{
+#skullascii:hover {
 	color:white;
 }
 
-#dateDeath{
+#dateDeath {
 	
 	color:#EAC67A;
 }
 
-.eyes{
+.eyes {
 	color:red;
 }
 
 
-/*MEDIA QUERIES*/
-@media screen and(max-width:640px){
-	#quoteButton,#addNew{
+@media screen and(max-width:640px) {
+	#quoteButton,#addNew {
 		display: block;
 	}
 }
